@@ -5,7 +5,6 @@ import {
   Box,
   Heading,
   Link,
-  SimpleGrid,
   Image,
   useColorModeValue,
   List,
@@ -17,8 +16,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { GridItem } from '../components/grid-item'
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 const Page = () => {
   return (
     <Layout>
@@ -67,7 +65,7 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Aradhana is a developer based in India. Currently working as an
+            Aradhana is a software developer based in India. Currently working as an
             Application Development Associate at Accenture. She is passionate
             about exploring new technologies and has a keen interest in frontend
             development. Her enthusiasm for learning and dedication to mastering
@@ -112,7 +110,7 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I ♥
+            I 💖
           </Heading>
           <Paragraph>
             Writing, Reading, Photography, Music, Gaming, Web Development
@@ -146,6 +144,18 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
                   aradhana nayak
+                </Button>
+              </Link>
+            </ListItem>
+
+            <ListItem>
+              <Link href="mailto:aradhana.zero@gmail.com" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoMail} />}
+                >
+                  aradhana.zero@gmail.com
                 </Button>
               </Link>
             </ListItem>

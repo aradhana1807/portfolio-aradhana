@@ -7,6 +7,7 @@ import thumbNoter from '../public/images/contents/Noter.png'
 import thumbDS from '../public/images/contents/daily struggle.png'
 import thumbProjectGallery from '../public/images/contents/project-gallery-2.png'
 import thumbHextagram from '../public/images/contents/hextagram.png'
+
 const Works = () => {
   return (
     <Layout>
