@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import NextLink from 'next/link'
 import {
   Container,
@@ -17,16 +18,22 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
-import { Metadata } from 'next'
-
-export const metadata = {
-  title: 'Aradhana Nayak',
-  description: 'Portfolio of Aradhana Nayak',
-}
 
 const Page = () => {
   return (
     <Layout>
+      <Head>
+        <title>Aradhana Nayak - Frontend Developer</title>
+        <meta name="description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
+        <meta property="og:title" content="Aradhana Nayak - Frontend Developer" />
+        <meta property="og:description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
+        <meta property="og:image" content="/images/aradhana-1.jpg" />
+        <meta property="og:url" content="https://portfolio-aradhana.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Aradhana Nayak - Frontend Developer" />
+        <meta name="twitter:description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
+        <meta name="twitter:image" content="/images/aradhana-1.jpg" />
+      </Head>
       <Container>
         <Box
           borderRadius="lg"
