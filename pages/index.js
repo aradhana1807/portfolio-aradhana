@@ -17,6 +17,13 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
+import { Metadata } from 'next'
+
+export const metadata = {
+  title: 'Aradhana Nayak',
+  description: 'Portfolio of Aradhana Nayak',
+}
+
 const Page = () => {
   return (
     <Layout>
