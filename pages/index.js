@@ -35,7 +35,7 @@ const Page = () => {
         <meta name="twitter:image" content="/images/aradhana-1.jpg" />
       </Head>
       <Container>
-        <Box
+        {/* <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
@@ -44,9 +44,9 @@ const Page = () => {
           align="center"
         >
           Hello, I&apos;m a frontend developer based in India
-        </Box>
+        </Box> */}
 
-        <Box display={{ md: 'flex' }}>
+        <Box display={{ md: 'flex' }} mt={5}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Aradhana Nayak
@@ -111,9 +111,14 @@ const Page = () => {
           </BioSection>
 
           <BioSection>
-            <BioYear>2023</BioYear>
+            <BioYear>2019-2023</BioYear>
             Completed Bachelor&apos;s Degree in Computer Science and Engineering
             from KIIT University, Bhubaneswar.
+          </BioSection>
+
+          <BioSection>
+            <BioYear>2022-2023</BioYear>
+            Worked at Highradius as ML Intern.
           </BioSection>
 
           <BioSection>
