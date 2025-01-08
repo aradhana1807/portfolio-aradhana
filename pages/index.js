@@ -24,14 +24,32 @@ const Page = () => {
     <Layout>
       <Head>
         <title>Aradhana Nayak - Frontend Developer</title>
-        <meta name="description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
-        <meta property="og:title" content="Aradhana Nayak - Frontend Developer" />
-        <meta property="og:description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
+        <meta
+          name="description"
+          content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
+        />
+        <meta
+          property="og:title"
+          content="Aradhana Nayak - Frontend Developer"
+        />
+        <meta
+          property="og:description"
+          content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
+        />
         <meta property="og:image" content="/images/aradhana-1.jpg" />
-        <meta property="og:url" content="https://portfolio-aradhana.vercel.app/" />
+        <meta
+          property="og:url"
+          content="https://portfolio-aradhana.vercel.app/"
+        />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Aradhana Nayak - Frontend Developer" />
-        <meta name="twitter:description" content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms." />
+        <meta
+          name="twitter:title"
+          content="Aradhana Nayak - Frontend Developer"
+        />
+        <meta
+          name="twitter:description"
+          content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
+        />
         <meta name="twitter:image" content="/images/aradhana-1.jpg" />
       </Head>
       <Container>
@@ -79,13 +97,13 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Aradhana is a software developer based in India. Currently working as an
-            Application Development Associate at Accenture. She is passionate
-            about exploring new technologies and has a keen interest in frontend
-            development. Her enthusiasm for learning and dedication to mastering
-            the latest trends in technology positions her as a forward-thinking
-            professional eager to make a mark in the field of frontend
-            development.
+            Aradhana is a software developer based in India. Currently working
+            as an Application Development Associate at Accenture. She is
+            passionate about exploring new technologies and has a keen interest
+            in frontend development. Her enthusiasm for learning and dedication
+            to mastering the latest trends in technology positions her as a
+            forward-thinking professional eager to make a mark in the field of
+            frontend development.
           </Paragraph>
 
           <Box align="center" my={4}>
@@ -129,7 +147,7 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I 💖
+            What I Love to Do
           </Heading>
           <Paragraph>
             Writing, Reading, Photography, Music, Gaming, Web Development

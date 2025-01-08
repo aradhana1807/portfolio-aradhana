@@ -7,14 +7,31 @@ import thumbNoter from '../public/images/contents/Noter.png'
 import thumbDS from '../public/images/contents/daily struggle.png'
 import thumbProjectGallery from '../public/images/contents/project-gallery-2.png'
 import thumbHextagram from '../public/images/contents/hextagram.png'
+import thumbPowerBI from '../public/images/contents/power-bi.png'
 
 const Works = () => {
   return (
     <Layout>
       <Container>
-        <Heading as="h3" fontSize={20} mb={4} mt={4} fontWeight="bold">
+        <Heading
+          as="h3"
+          fontSize={20}
+          mb={4}
+          mt={4}
+          fontWeight="bold"
+        >
           Works
         </Heading>
+
+        <Section>
+          <WorkGridItem
+            id="power-bi-report"
+            title="Workforce Availability Summary"
+            thumbnail={thumbPowerBI}
+          >
+            A staff availability summary dashboard.
+          </WorkGridItem>
+        </Section>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>

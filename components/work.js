@@ -7,12 +7,19 @@ export const Title = ({ children }) => (
     <NextLink href="/works">
       <Link>Works</Link>
     </NextLink>
+
     <span>
       &nbsp;
       <ChevronRightIcon />
       &nbsp;
     </span>
-    <Heading display="inline-block" as="h3" fontSize={20} mb={4}>
+
+    <Heading
+      display="inline-block"
+      as="h3"
+      fontSize={18}
+      mb={4}
+    >
       {children}
     </Heading>
   </Box>

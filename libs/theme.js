@@ -32,7 +32,7 @@ const components = {
 }
 
 const fonts = {
-  heading: "'Lato'"
+  heading: "'Outfit'"
 }
 
 const colors = {
