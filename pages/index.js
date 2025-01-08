@@ -24,6 +24,7 @@ const Page = () => {
     <Layout>
       <Head>
         <title>Aradhana Nayak - Frontend Developer</title>
+        <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
           content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
