@@ -46,7 +46,7 @@ const Work = () => (
         <ListItem>
           <Meta>Note</Meta>
           The data presented is confidential, and mock data has been used for
-          demonstration purposes. The dashboard shown is a rough sketch created
+          demonstration purposes. The dashboard design shown is a rough sketch created
           in Power BI software.
         </ListItem>
       </List>

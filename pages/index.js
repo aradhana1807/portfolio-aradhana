@@ -64,7 +64,12 @@ const Page = () => {
           Hello, I&apos;m a frontend developer based in India
         </Box> */}
 
-        <Box display={{ md: 'flex' }} mt={5}>
+        <Box
+          display={{ md: 'flex' }}
+          mt={5}
+          justifyContent="center"
+          alignItems="center"
+        >
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Aradhana Nayak
@@ -85,7 +90,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/aradhana-1.jpg"
+              src="/images/aradhana.jpg"
               alt="Profile Image"
               objectFit={'cover'}
             />
