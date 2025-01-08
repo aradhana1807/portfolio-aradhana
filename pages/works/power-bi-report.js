@@ -38,16 +38,16 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/contents/powerbi1.png" alt="powerbi-1" />
-      <WorkImage src="/images/contents/powerbi2.png" alt="powerbi-2" />
-      <WorkImage src="/images/contents/powerbi3.png" alt="powerbi-3" />
+      <WorkImage src="/images/contents/PowerBI1.png" alt="powerbi-1" />
+      <WorkImage src="/images/contents/PowerBI2.png" alt="powerbi-2" />
+      <WorkImage src="/images/contents/PowerBI3.png" alt="powerbi-3" />
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Note</Meta>
           The data presented is confidential, and mock data has been used for
-          demonstration purposes. The dashboard design shown is a rough sketch created
-          in Power BI software.
+          demonstration purposes. The dashboard design shown is a rough sketch
+          created in Power BI software.
         </ListItem>
       </List>
     </Container>
