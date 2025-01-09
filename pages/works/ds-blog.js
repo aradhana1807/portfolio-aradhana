@@ -11,47 +11,49 @@ const Work = () => (
         Daily Struggle Blog <Badge>2024</Badge>
       </Title>
       <P>
-        <strong>daily struggle Blog</strong> is a fictional blog where embark on
-        the journey with Hikari and Cloud, as they accompany their humans
-        through life's ups and downs, sharing in their daily struggles and
-        triumphs.
+        <strong>Daily struggle blog</strong> is a fictional blog where you
+        embark on the journey with Vincent and Charlie, as they accompany their
+        humans through life's ups and downs, sharing in their daily struggles
+        and triumphs.
       </P>
 
       <P>
-        It also has features like comments and likes for users to interact.
-        Users can also customize their profile.
+        This blog is born out of my love for writing, shared with a dear friend.
+        It's a space where we combine our creative passions to showcase the
+        beauty of life's simple stories and the shared experiences of both
+        humans and animals. Whether you're here to laugh, reflect, or find
+        solace in relatable struggles, we hope you feel at home with us on this
+        journey.
       </P>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React.js, MongoDB</span>
+          <span>Astro.js</span>
         </ListItem>
 
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://daily-struggle.onrender.com/">
-            https://daily-struggle.onrender.com/
+          <Link href="https://daily-struggle-blog.vercel.app/">
+            https://daily-struggle-blog.vercel.app/
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
         <ListItem>
           <Meta>GitHub</Meta>
-          <Link href="https://github.com/aradhana1807/blog-mern">
-            https://github.com/aradhana1807/blog-mern
+          <Link href="https://github.com/aradhana1807/daily-struggle-blog-astro">
+            https://github.com/aradhana1807/daily-struggle-blog-astro
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
 
-      <WorkImage
-        src="/images/contents/daily struggle.png"
-        alt="Daily Struggle Blog"
-      />
-      <WorkImage
-        src="/images/contents/daily struggle 1.png"
-        alt="Daily Struggle Blog"
-      />
+      <WorkImage src="/images/contents/daily-struggle-blog1.png" alt="blog1" />
+      <WorkImage src="/images/contents/daily-struggle-blog2.png" alt="blog2" />
+      <WorkImage src="/images/contents/daily-struggle-blog3.png" alt="blog3" />
+      <WorkImage src="/images/contents/daily-struggle-blog4.png" alt="blog4" />
+      <WorkImage src="/images/contents/daily-struggle-blog5.png" alt="blog5" />
     </Container>
   </Layout>
 )

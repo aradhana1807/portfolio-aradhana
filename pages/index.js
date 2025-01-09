@@ -18,13 +18,35 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
+import { useEffect } from 'react'
 
 const Page = () => {
+  useEffect(() => {
+    const favicon = document.getElementById('favicon')
+
+    const updateFavicon = () => {
+      const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+      favicon.setAttribute(
+        'href',
+        darkMode ? '/favicon-dark.ico' : '/favicon-light.ico'
+      )
+    }
+
+    updateFavicon()
+
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    mediaQuery.addEventListener('change', updateFavicon)
+
+    return () => {
+      mediaQuery.removeEventListener('change', updateFavicon)
+    }
+  }, [])
+
   return (
     <Layout>
       <Head>
         <title>Aradhana Nayak - Frontend Developer</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link id="favicon" rel="icon" href="/favicon-light.ico" />
         <meta
           name="description"
           content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
