@@ -18,35 +18,13 @@ import Paragraph from '../components/paragraph'
 import { BioParagraph, BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
-import { useEffect } from 'react'
 
 const Page = () => {
-  useEffect(() => {
-    const favicon = document.getElementById('favicon')
-
-    const updateFavicon = () => {
-      const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
-      favicon.setAttribute(
-        'href',
-        darkMode ? '/favicon-dark.ico' : '/favicon-light.ico'
-      )
-    }
-
-    updateFavicon()
-
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-    mediaQuery.addEventListener('change', updateFavicon)
-
-    return () => {
-      mediaQuery.removeEventListener('change', updateFavicon)
-    }
-  }, [])
-
   return (
     <Layout>
       <Head>
         <title>Aradhana Nayak - Frontend Developer</title>
-        <link id="favicon" rel="icon" href="/favicon-light.ico" />
+
         <meta
           name="description"
           content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
@@ -153,22 +131,26 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
-            Born in Odisha, India
+            <BioParagraph>Born in Odisha, India</BioParagraph>
           </BioSection>
 
           <BioSection>
             <BioYear>2019-23</BioYear>
-            Bachelor&apos;s Degree in CSE from KIIT University
+            <BioParagraph>
+              Bachelor&apos;s Degree in CSE from KIIT University
+            </BioParagraph>
           </BioSection>
 
           <BioSection>
             <BioYear>2022-23</BioYear>
-            Worked at Highradius as ML Intern
+            <BioParagraph>Worked at Highradius as ML Intern</BioParagraph>
           </BioSection>
 
           <BioSection>
             <BioYear>2023-Present</BioYear>
-            Working at Accenture
+            <BioParagraph>
+              Working as an Application Development Associate at Accenture
+            </BioParagraph>
           </BioSection>
         </Section>
 

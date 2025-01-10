@@ -5,7 +5,7 @@ import theme from '../libs/theme'
 import { AnimatePresence } from 'framer-motion'
 const Website = ({ Component, pageProps, router }) => {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme} suppressHydrationWarning>
       <Fonts />
       <Layout router={router}>
         <AnimatePresence mode="wait" initial={true}>
