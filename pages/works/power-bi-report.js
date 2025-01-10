@@ -46,9 +46,9 @@ const Work = () => (
         <ListItem>
           <Meta>Note</Meta>
           <span>
-            Mock data has been used for demonstration purposes. The dashboard
-            shown is a simplified mockup of the actual dashboard and is not the
-            final version.
+            The dashboard shown is a simplified mockup of the actual dashboard
+            and is not the final version. Mock data has been used for
+            demonstration purposes.
           </span>
         </ListItem>
       </List>
