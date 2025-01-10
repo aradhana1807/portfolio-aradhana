@@ -15,7 +15,7 @@ import {
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+import { BioParagraph, BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 import { useEffect } from 'react'
@@ -157,19 +157,18 @@ const Page = () => {
           </BioSection>
 
           <BioSection>
-            <BioYear>2019-2023</BioYear>
-            Completed Bachelor&apos;s Degree in Computer Science and Engineering
-            from KIIT University, Bhubaneswar.
+            <BioYear>2019-23</BioYear>
+            Bachelor&apos;s Degree in CSE from KIIT University
           </BioSection>
 
           <BioSection>
-            <BioYear>2022-2023</BioYear>
-            Worked at Highradius as ML Intern.
+            <BioYear>2022-23</BioYear>
+            Worked at Highradius as ML Intern
           </BioSection>
 
           <BioSection>
-            <BioYear>2023 to present </BioYear>
-            Working at Accenture.
+            <BioYear>2023-Present</BioYear>
+            Working at Accenture
           </BioSection>
         </Section>
 
