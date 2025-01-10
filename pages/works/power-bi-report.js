@@ -45,9 +45,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Note</Meta>
-          The data presented is confidential, and mock data has been used for
-          demonstration purposes. The dashboard design shown is a rough sketch
-          created in Power BI software.
+          <span>
+            Mock data has been used for demonstration purposes. The dashboard
+            shown is a simplified mockup of the actual dashboard and is not the
+            final version.
+          </span>
         </ListItem>
       </List>
     </Container>
