@@ -8,6 +8,7 @@ import thumbDS from '../public/images/contents/daily-struggle-blog1.png'
 import thumbProjectGallery from '../public/images/contents/project-gallery-2.png'
 import thumbHextagram from '../public/images/contents/hextagram.png'
 import thumbPowerBI from '../public/images/contents/power-bi.png'
+import thumbMLProject from '../public/images/contents/ml-project.png'
 
 const Works = () => {
   return (
@@ -17,15 +18,34 @@ const Works = () => {
           Works
         </Heading>
 
-        <Section>
-          <WorkGridItem
-            id="power-bi-report"
-            title="Workforce Availability Summary"
-            thumbnail={thumbPowerBI}
-          >
-            A staff availability summary dashboard.
-          </WorkGridItem>
-        </Section>
+        <Heading as="h4" fontSize={18} mb={4} mb={4}>
+          Experience
+        </Heading>
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="power-bi-report"
+              title="Workforce Summary"
+              thumbnail={thumbPowerBI}
+            >
+              A staff availability summary dashboard.
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem
+              id="ml-internship"
+              title="Collection Management"
+              thumbnail={thumbMLProject}
+            >
+              Predictive models for collection management.
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+
+        <Heading as="h4" fontSize={18} mb={4}>
+          Personal Projects
+        </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
