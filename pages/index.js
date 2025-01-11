@@ -75,7 +75,9 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Aradhana Nayak
             </Heading>
-            <p>Software Engineer / Developer</p>
+            <p style={{ fontFamily: 'Ubuntu Sans' }}>
+              Software Engineer / Developer
+            </p>
           </Box>
 
           <Box
