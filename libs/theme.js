@@ -20,6 +20,16 @@ const components = {
         textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
+      },
+      
+      'project-title': {
+        textDecoration: 'underline',
+        fontSize: 20,
+        textUnderlineOffset: 4,
+        textDecorationColor: '#525252',
+        textDecorationThickness: 2,
+        marginTop: 3,
+        marginBottom: 4
       }
     }
   },

@@ -118,6 +118,7 @@ const Page = () => {
                 rightIcon={<ChevronRightIcon />}
                 colorScheme="teal"
                 alignItems="center"
+                fontFamily={'Ubuntu Sans'}
               >
                 My portfolio
               </Button>
@@ -166,7 +167,7 @@ const Page = () => {
             On the web
           </Heading>
           <List>
-            <ListItem>
+            <ListItem fontFamily={'Ubuntu Sans'}>
               <Link href="https://github.com/aradhana1807" target="_blank">
                 <Button
                   variant="ghost"

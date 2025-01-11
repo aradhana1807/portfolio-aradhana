@@ -5,13 +5,13 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Workforce Availability Summary">
+  <Layout title="Workforce Summary">
     <Container>
       <Title>
-        Workforce Availability Summary <Badge>2024</Badge>
+        Workforce Summary <Badge>2024</Badge>
       </Title>
       <P>
-        <strong>Workforce Availability Summary</strong> is a Power BI dashboard,
+        <strong>Workforce Summary</strong> is a Power BI dashboard,
         providing an overview of staff availability across the company,
         displaying the count of available team members at any given time. It
         helps to quickly assess workforce availability, ensuring efficient

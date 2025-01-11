@@ -32,6 +32,7 @@ export const BioSection = styled(Box)`
   align-items: center;
   border-bottom: 2px solid rgb(66, 66, 66);
   margin: 0.5rem 0 0.5rem 0;
+  font-family: 'Ubuntu Sans', serif;
 `
 
 export const BioYear = styled.span`

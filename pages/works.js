@@ -18,9 +18,10 @@ const Works = () => {
           Works
         </Heading>
 
-        <Heading as="h4" fontSize={18} mb={4} mb={4}>
-          Experience
+        <Heading as="h4" fontSize={18} mb={4} variant={'project-title'}>
+          Workplace Contributions
         </Heading>
+
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
@@ -43,7 +44,7 @@ const Works = () => {
           </Section>
         </SimpleGrid>
 
-        <Heading as="h4" fontSize={18} mb={4}>
+        <Heading as="h4" fontSize={18} mb={4} variant={'project-title'}>
           Personal Projects
         </Heading>
 
