@@ -19,7 +19,7 @@ const Work = () => (
 
       <P>
         As an intern at <strong>Highradius</strong>, I collaborated with the ML
-        team to develop and deploy predictive models with 60-80% accuracy,
+        team to develop and deploy predictive models with 60-75% accuracy,
         improving the client's collection management efficiency.
       </P>
 

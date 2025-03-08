@@ -11,11 +11,11 @@ const Work = () => (
         Workforce Summary <Badge>2024</Badge>
       </Title>
       <P>
-        <strong>Workforce Summary</strong> is a Power BI dashboard,
-        providing an overview of staff availability across the company,
-        displaying the count of available team members at any given time. It
-        helps to quickly assess workforce availability, ensuring efficient
-        resource allocation and streamlined project management.
+        <strong>Workforce Summary</strong> is a Power BI dashboard, providing an
+        overview of staff availability across the company, displaying the count
+        of available team members at any given time. It helps to quickly assess
+        workforce availability, ensuring efficient resource allocation and
+        streamlined project management.
       </P>
 
       <P>
@@ -47,8 +47,7 @@ const Work = () => (
           <Meta>Note</Meta>
           <span>
             The dashboard shown is a simplified mockup of the actual dashboard
-            and is not the final version. Mock data has been used for
-            demonstration purposes.
+            and uses mock data for demonstration purposes.
           </span>
         </ListItem>
       </List>
