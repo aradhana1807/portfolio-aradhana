@@ -7,7 +7,7 @@ import thumbNoter from '../public/images/contents/Noter.png'
 import thumbDS from '../public/images/contents/daily-struggle-blog1.png'
 import thumbProjectGallery from '../public/images/contents/project-gallery-2.png'
 import thumbHextagram from '../public/images/contents/hextagram.png'
-import thumbPowerBI from '../public/images/contents/power-bi.png'
+import thumbPowerBI from '../public/images/contents/powerbi-project.png'
 import thumbMLProject from '../public/images/contents/ml-project.png'
 
 const Works = () => {
