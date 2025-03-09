@@ -102,7 +102,7 @@ const Page = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Work 💻
           </Heading>
           <Paragraph>
             Aradhana is a software developer based in India. Currently working
@@ -130,7 +130,7 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Bio 📝
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
@@ -157,7 +157,7 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            What I Love to Do
+            What I Love to Do 🎉
           </Heading>
           <Paragraph>
             Writing, Reading, Photography, Music, Gaming, Web Development
@@ -166,7 +166,7 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            On the web
+            On the web 🌐
           </Heading>
           <List>
             <ListItem fontFamily={'Ubuntu Sans'}>

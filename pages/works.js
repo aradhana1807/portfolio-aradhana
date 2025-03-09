@@ -9,6 +9,7 @@ import thumbProjectGallery from '../public/images/contents/project-gallery-2.png
 import thumbHextagram from '../public/images/contents/hextagram.png'
 import thumbPowerBI from '../public/images/contents/powerbi-project.png'
 import thumbMLProject from '../public/images/contents/ml-project.png'
+import thumbMFEProject from '../public/images/contents/micro-frontend-project.png'
 
 const Works = () => {
   return (
@@ -23,6 +24,17 @@ const Works = () => {
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+          <Section>
+            <WorkGridItem
+              id="mfe-project"
+              title="Scalable Micro Frontend"
+              thumbnail={thumbMFEProject}
+            >
+              Building scalable Micro Frontend components for a client.
+            </WorkGridItem>
+          </Section>
+
           <Section>
             <WorkGridItem
               id="power-bi-report"
