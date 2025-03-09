@@ -54,16 +54,6 @@ const Page = () => {
         <meta name="twitter:image" content="/images/aradhana-1.jpg" />
       </Head>
       <Container>
-        {/* <Box
-          borderRadius="lg"
-          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-          p={3}
-          mb={6}
-          mt={6}
-          align="center"
-        >
-          Hello, I&apos;m a frontend developer based in India
-        </Box> */}
 
         <Box
           display={{ md: 'flex' }}
@@ -88,7 +78,7 @@ const Page = () => {
           >
             <Image
               borderColor="whiteAlpha.800"
-              borderWidth={2}
+              borderWidth={4}
               borderStyle="solid"
               maxWidth="100px"
               display="inline-block"
@@ -118,7 +108,7 @@ const Page = () => {
             <NextLink href="/works">
               <Button
                 rightIcon={<ChevronRightIcon />}
-                colorScheme="teal"
+                colorScheme={useColorModeValue('blue', 'teal')}
                 alignItems="center"
                 fontFamily={'Ubuntu Sans'}
               >
@@ -173,7 +163,7 @@ const Page = () => {
               <Link href="https://github.com/aradhana1807" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme={useColorModeValue('blue', 'teal')}
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   @aradhana1807
@@ -187,7 +177,7 @@ const Page = () => {
               >
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme={useColorModeValue('blue', 'teal')}
                   leftIcon={<Icon as={IoLogoLinkedin} />}
                 >
                   aradhana nayak
@@ -199,7 +189,7 @@ const Page = () => {
               <Link href="mailto:aradhana.zero@gmail.com" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme={useColorModeValue('blue', 'teal')}
                   leftIcon={<Icon as={IoMail} />}
                 >
                   aradhana.zero@gmail.com
