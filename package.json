@@ -1,6 +1,7 @@
 {
   "name": "portfolio-aradhana",
   "version": "1.0.0",
+  "packageManager": "bun@1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",

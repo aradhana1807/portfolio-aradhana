@@ -1,67 +1,3 @@
-// import { extendTheme } from '@chakra-ui/react'
-// import { mode } from '@chakra-ui/theme-tools'
-
-// const styles = {
-//   global: props => ({
-//     body: {
-//       bg: mode('#EEF7FF', '#212A33')(props)
-//     }
-//   })
-// }
-
-// const components = {
-//   Heading: {
-//     variants: {
-//       'section-title': {
-//         fontSize: 22,
-//         // textDecoration: 'underline',
-//         // textUnderlineOffset: 6,
-//         // textDecorationColor: '#525252',
-//         // textDecorationThickness: 4,
-//         marginTop: 3,
-//         marginBottom: 4
-//       },
-
-//       'project-title': {
-//         textDecoration: 'underline',
-//         fontSize: 20,
-//         textUnderlineOffset: 4,
-//         textDecorationColor: '#525252',
-//         textDecorationThickness: 2,
-//         marginTop: 3,
-//         marginBottom: 4
-//       }
-//     }
-//   },
-//   Link: {
-//     baseStyle: props => ({
-//       color: mode('#3d7aed', '#ff63c3')(props),
-//       textUnderlineOffset: 3
-//     })
-//   }
-// }
-
-// const fonts = {
-//   heading: "'Outfit'"
-// }
-
-// // const colors = {
-// //   glassTeal: '#88ccca'
-// // }
-
-// const config = {
-//   initialColorMode: 'dark',
-//   useSystemColorMode: true
-// }
-
-// const theme = extendTheme({
-//   config,
-//   styles,
-//   components,
-//   // colors,
-//   fonts
-// })
-
 // export default theme
 import { extendTheme } from '@chakra-ui/react'
 import { mode } from '@chakra-ui/theme-tools'
@@ -70,7 +6,7 @@ import { mode } from '@chakra-ui/theme-tools'
 const styles = {
   global: props => ({
     body: {
-      bg: mode('#EEF7FF', '#212A33')(props)
+      bg: mode('#d2dce4', '#181a1c')(props)
     }
   })
 }
@@ -173,7 +109,7 @@ const colors = {
 
 const config = {
   initialColorMode: 'dark',
-  useSystemColorMode: true
+  useSystemColorMode: false
 }
 
 const theme = extendTheme({
