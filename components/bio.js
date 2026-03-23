@@ -1,46 +1,43 @@
-// import { Box } from '@chakra-ui/react'
-// import styled from '@emotion/styled'
+import { Box, Text, useColorModeValue } from '@chakra-ui/react'
 
-// export const BioSection = styled(Box)`
-//   padding-left: 3.4em;
-//   text-indent: -3.4em;
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-//   border-bottom: 2px solid rgb(66, 66, 66);
-//   margin: 0.5rem 0 0.5rem 0;
-// `
+// Bio Section (row)
+export const BioSection = ({ children }) => {
+  const borderColor = useColorModeValue('gray.200', 'whiteAlpha.200')
+  const hoverBg = useColorModeValue('gray.50', 'whiteAlpha.100')
 
-// export const BioYear = styled.span`
-//   font-weight: bold;
-//   margin-right: 1em;
-// `
+  return (
+    <Box
+      display="flex"
+      gap="1rem"
+      alignItems="flex-start"
+      py={1.5}
+      borderBottom="1px solid"
+      borderColor={borderColor}
+      fontFamily="'Ubuntu Sans', serif"
+      _hover={{ bg: hoverBg }}
+      transition="background 0.2s ease"
+    >
+      {children}
+    </Box>
+  )
+}
 
-// export const BioParagraph = styled.p`
-//   text-align: right;
-//   text-indent: 1em;
-// `
+// Year (left side)
+export const BioYear = ({ children }) => {
+  const color = useColorModeValue('blue.500', 'teal.400')
 
-import { Box } from '@chakra-ui/react'
-import styled from '@emotion/styled'
+  return (
+    <Text as="span" fontWeight={600} minW="110px" color={color}>
+      {children}
+    </Text>
+  )
+}
 
-export const BioSection = styled(Box)`
-  padding-left: 3.4em;
-  text-indent: -3.4em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid rgb(66, 66, 66);
-  margin: 0.5rem 0 0.5rem 0;
-  font-family: 'Ubuntu Sans', serif;
-`
-
-export const BioYear = styled.span`
-  font-weight: bold;
-  margin-right: 1em;
-`
-
-export const BioParagraph = styled.p`
-  text-align: right;
-  text-indent: 0.5em;
-`
+// Text (right side)
+export const BioParagraph = ({ children }) => {
+  return (
+    <Text m={0} lineHeight="1.5">
+      {children}
+    </Text>
+  )
+}

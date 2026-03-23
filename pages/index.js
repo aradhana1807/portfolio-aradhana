@@ -5,7 +5,6 @@ import {
   Button,
   Box,
   Heading,
-  Link,
   Image,
   useColorModeValue,
   List,
@@ -54,7 +53,6 @@ const Page = () => {
         <meta name="twitter:image" content="/images/aradhana-1.jpg" />
       </Head>
       <Container>
-
         <Box
           display={{ md: 'flex' }}
           mt={5}
@@ -95,26 +93,26 @@ const Page = () => {
             Work 💻
           </Heading>
           <Paragraph>
-            Aradhana is a software developer based in India. Currently working
-            as an Application Development Associate at Accenture. She is
-            passionate about exploring new technologies and has a keen interest
-            in frontend development. Her enthusiasm for learning and dedication
-            to mastering the latest trends in technology positions her as a
-            forward-thinking professional eager to make a mark in the field of
-            frontend development.
+            I’m a software developer based in India, currently working at
+            Accenture. My work focuses on building scalable frontend
+            applications using React and Next.js, with experience in micro
+            frontend architecture and shared component platforms. I’ve also
+            worked on backend integrations using Nest.js, which has allowed me
+            to contribute across the stack. I enjoy exploring new technologies
+            and building clean, efficient solutions.
           </Paragraph>
 
           <Box align="center" my={4}>
-            <NextLink href="/works">
-              <Button
-                rightIcon={<ChevronRightIcon />}
-                colorScheme={useColorModeValue('blue', 'teal')}
-                alignItems="center"
-                fontFamily={'Ubuntu Sans'}
-              >
-                My portfolio
-              </Button>
-            </NextLink>
+            <Button
+              as={NextLink}
+              href="/works"
+              rightIcon={<ChevronRightIcon />}
+              colorScheme={useColorModeValue('blue', 'teal')}
+              alignItems="center"
+              fontFamily={'Ubuntu Sans'}
+            >
+              My portfolio
+            </Button>
           </Box>
         </Section>
 
@@ -122,26 +120,36 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio 📝
           </Heading>
+
           <BioSection>
             <BioYear>2001</BioYear>
             <BioParagraph>Born in Odisha, India</BioParagraph>
           </BioSection>
 
           <BioSection>
-            <BioYear>2019-23</BioYear>
+            <BioYear>2019 – 2023</BioYear>
             <BioParagraph>
-              Bachelor&apos;s Degree in CSE from KIIT University
+              Bachelor’s in Computer Science from KIIT University
             </BioParagraph>
           </BioSection>
 
           <BioSection>
-            <BioYear>2022-23</BioYear>
-            <BioParagraph>Worked at Highradius as ML Intern</BioParagraph>
+            <BioYear>2022 – 2023</BioYear>
+            <BioParagraph>Machine Learning Intern at HighRadius</BioParagraph>
           </BioSection>
 
           <BioSection>
-            <BioYear>2023-Present</BioYear>
-            <BioParagraph>Working at Accenture as ASE</BioParagraph>
+            <BioYear>2023 – 2024</BioYear>
+            <BioParagraph>
+              Application Development Associate at Accenture
+            </BioParagraph>
+          </BioSection>
+
+          <BioSection>
+            <BioYear>2024 – Present</BioYear>
+            <BioParagraph>
+              Packaged App Development Analyst at Accenture
+            </BioParagraph>
           </BioSection>
         </Section>
 
@@ -160,41 +168,41 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem fontFamily={'Ubuntu Sans'}>
-              <Link href="https://github.com/aradhana1807" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme={useColorModeValue('blue', 'teal')}
-                  leftIcon={<Icon as={IoLogoGithub} />}
-                >
-                  @aradhana1807
-                </Button>
-              </Link>
+              <Button
+                as="a"
+                href="https://github.com/aradhana1807"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="ghost"
+                colorScheme={useColorModeValue('blue', 'teal')}
+                leftIcon={<Icon as={IoLogoGithub} />}
+              >
+                @aradhana1807
+              </Button>
             </ListItem>
             <ListItem>
-              <Link
+              <Button
+                as="a"
                 href="https://www.linkedin.com/in/aradhana-nayak-607959212/"
                 target="_blank"
+                variant="ghost"
+                colorScheme={useColorModeValue('blue', 'teal')}
+                leftIcon={<Icon as={IoLogoLinkedin} />}
               >
-                <Button
-                  variant="ghost"
-                  colorScheme={useColorModeValue('blue', 'teal')}
-                  leftIcon={<Icon as={IoLogoLinkedin} />}
-                >
-                  aradhana nayak
-                </Button>
-              </Link>
+                aradhana nayak
+              </Button>
             </ListItem>
 
             <ListItem>
-              <Link href="mailto:aradhana.zero@gmail.com" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme={useColorModeValue('blue', 'teal')}
-                  leftIcon={<Icon as={IoMail} />}
-                >
-                  aradhana.zero@gmail.com
-                </Button>
-              </Link>
+              <Button
+                as="a"
+                href="mailto:aradhana.zero@gmail.com"
+                variant="ghost"
+                colorScheme={useColorModeValue('blue', 'teal')}
+                leftIcon={<Icon as={IoMail} />}
+              >
+                aradhana.zero@gmail.com
+              </Button>
             </ListItem>
           </List>
         </Section>
