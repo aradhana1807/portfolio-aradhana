@@ -12,8 +12,13 @@ const Work = () => (
       </Title>
 
       <P>
-        <strong>Hextagram</strong> is a social media app that allows users to
-        share, comment, and like posts.
+        <strong>Hextagram</strong> is a social media application enabling users
+        to create, share, like, and comment on posts in real time.
+      </P>
+
+      <P>
+        It integrates Firebase for authentication and database management,
+        supporting dynamic content updates and user interactions.
       </P>
 
       <List ml={4} my={4}>

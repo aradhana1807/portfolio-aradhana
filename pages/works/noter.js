@@ -12,7 +12,14 @@ const Work = () => (
       </Title>
 
       <P>
-        <strong>Noter</strong> is a markdown note-taking app.
+        <strong>Noter</strong> is a markdown-based note-taking application built
+        with real-time data synchronization and a clean, minimal editing
+        experience.
+      </P>
+
+      <P>
+        Designed with a focus on performance and usability, it leverages Convex
+        for backend state management and seamless data updates.
       </P>
 
       <List ml={4} my={4}>

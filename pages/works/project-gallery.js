@@ -12,7 +12,13 @@ const Work = () => (
       </Title>
 
       <P>
-        <strong>Project Gallery</strong> is a collection of personal projects.
+        <strong>Project Gallery</strong> is a curated platform to showcase and
+        organize personal projects with a clean and responsive UI.
+      </P>
+
+      <P>
+        Built using Next.js, it focuses on optimized rendering and structured
+        presentation of project data for better user experience.
       </P>
 
       <List ml={4} my={4}>
