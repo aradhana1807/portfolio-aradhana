@@ -87,7 +87,7 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section>
+          {/* <Section>
             <WorkGridItem
               id="hextagram"
               title="Hextagram"
@@ -95,7 +95,7 @@ const Works = () => {
             >
               A social media app.
             </WorkGridItem>
-          </Section>
+          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>
