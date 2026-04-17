@@ -139,14 +139,14 @@ const Page = () => {
           </BioSection>
 
           <BioSection>
-            <BioYear>2023 – 2024</BioYear>
+            <BioYear>2023 – 2025</BioYear>
             <BioParagraph>
               Application Development Associate at Accenture
             </BioParagraph>
           </BioSection>
 
           <BioSection>
-            <BioYear>2024 – Present</BioYear>
+            <BioYear>2025 – Present</BioYear>
             <BioParagraph>
               Packaged App Development Analyst at Accenture
             </BioParagraph>
