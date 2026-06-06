@@ -17,6 +17,7 @@ import Paragraph from '../components/paragraph'
 import { BioParagraph, BioSection, BioYear } from '../components/bio'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
+import { HiDocumentDownload } from 'react-icons/hi'
 
 const Page = () => {
   return (
@@ -36,7 +37,7 @@ const Page = () => {
           property="og:description"
           content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
         />
-        <meta property="og:image" content="/images/aradhana-1.jpg" />
+        <meta property="og:image" content="/images/aradhana-2026.jpg" />
         <meta
           property="og:url"
           content="https://portfolio-aradhana.vercel.app/"
@@ -50,7 +51,7 @@ const Page = () => {
           name="twitter:description"
           content="Portfolio of Aradhana Nayak, a frontend developer based in India. Explore my work and connect with me on various platforms."
         />
-        <meta name="twitter:image" content="/images/aradhana-1.jpg" />
+        <meta name="twitter:image" content="/images/aradhana-2026.jpg" />
       </Head>
       <Container>
         <Box
@@ -81,7 +82,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/aradhana.jpg"
+              src="/images/aradhana-2026.jpg"
               alt="Profile Image"
               objectFit={'cover'}
             />
@@ -166,8 +167,8 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             On the web 🌐
           </Heading>
-          <List>
-            <ListItem fontFamily={'Ubuntu Sans'}>
+          <List fontFamily={'Ubuntu Sans'}>
+            <ListItem>
               <Button
                 as="a"
                 href="https://github.com/aradhana1807"
@@ -185,6 +186,7 @@ const Page = () => {
                 as="a"
                 href="https://www.linkedin.com/in/aradhana-nayak-607959212/"
                 target="_blank"
+                rel="noopener noreferrer"
                 variant="ghost"
                 colorScheme={useColorModeValue('blue', 'teal')}
                 leftIcon={<Icon as={IoLogoLinkedin} />}
@@ -202,6 +204,20 @@ const Page = () => {
                 leftIcon={<Icon as={IoMail} />}
               >
                 aradhana.zero@gmail.com
+              </Button>
+            </ListItem>
+
+            <ListItem>
+              <Button
+                as="a"
+                href="https://drive.google.com/file/d/1Y7XDAXRwfBo1hd4ODwfv1tAWEe0sOPyh/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="ghost"
+                colorScheme={useColorModeValue('blue', 'teal')}
+                leftIcon={<Icon as={HiDocumentDownload} />}
+              >
+                Download CV
               </Button>
             </ListItem>
           </List>
